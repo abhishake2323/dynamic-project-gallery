@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #516f76;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin:0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+}
+
+
+footer {
+    /* background-color: #333; */
+    /* color: white; */
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+   opacity: 40%;
+    bottom: 0;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+
+.projectcards{
+    list-style: none;
+    display: inline-flex;
+    
+}
+
+.projectcard{
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: #dde7eb;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+
+.mybtn:hover {
+    color: white;
+    background-color: rgb(76, 192, 213);
+    font-weight: 700;
+    border: 0.1px ;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+.mybtn:active {
+    color: white;
+    background-color: rgb(49, 116, 167);
+    font-weight: 700;
+    border: 0.1px ;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.mybtn {
+    font-weight: 700;
+    border: 0.1px ;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+.dflex {
+    align-items: baseline;
+    position: relative;
+    width: 90%;
+    display: inline-flex;
+}
+
+.float-right{
+    top: 20px;
+    position: absolute;
+    right: 20px;
+}   
+.text-blue-col {
+    color: rgb(58, 106, 165);
+}
+
+.popupwindw{
+    top:2%;
+    left: 5%; 
+    
+    width: 80vw;
+    
+    margin: 3rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 0px 0px 5000px rgb(10 25 36 / 46%);
+    z-index: 9999;
+    height: 80vh;
+    display:block;
+    position:fixed;
+}
+.bg-header{
+ 
+    padding: 1rem;
+    background-color: gainsboro;
+}
+
+.popbody{
+
+    padding: 1rem
+}
+
+.d-none{
+
+    display: none;
+}
+
+.popfooter{
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+position: absolute;
+    bottom: 0;
+}
