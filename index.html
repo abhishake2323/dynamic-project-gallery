@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="script.js"></script>
     <title>Abhishek Masure Jayatheertha</title>
+    
 </head>
 <body>
     <!-- Header Section -->
@@ -33,17 +34,27 @@
         <h2>My Projects</h2>
         
          
-            <div class="projectcard dflex "> <h4 class="prjname">PROJECT A</h4> 
-                <div class="d-none content">sample from proj 1</div>
+            <div class="projectcard dflex "> 
+                <h4 class="prjname">  Global IT Service Optimization Program</h4> 
+                <div class="d-none content">
+                    
+                    <p>Led a large-scale IT service optimization initiative to streamline operations across multiple global offices. The program involved deploying a centralized IT service management platform (e.g., ServiceNow) and consolidating redundant systems. Using Agile methodologies (SAFe), the project implemented standardized IT support workflows, reducing ticket resolution time by 35% and cutting operational costs by 20%. Extensive training and cultural alignment workshops ensured adoption in diverse regions.</p>
+                </div>
                 <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            <div class="projectcard dflex"> <h4 class="prjname" >PROJECT B</h4>
-                <div class="d-none content">sample from proj 2</div>
+            <div class="projectcard dflex"> <h4 class="prjname" >Automated Regulatory Compliance System (ARCS)</h4>
+                <div class="d-none content">
+                    
+                    <p> Developed and implemented an automated compliance management system to ensure adherence to complex regulatory requirements in multiple jurisdictions. The system automated compliance monitoring, reporting, and documentation, reducing manual compliance checks by 50%. Utilized Agile Scrum methodology and collaborated with cross-functional stakeholders to define requirements. Project outcomes included improved compliance accuracy, enhanced audit readiness, and a 40% reduction in compliance-related penalties.</p>
+                </div>
                  <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            <div class="projectcard dflex" > <h4 class="prjname" >PROJECT C</h4> 
-                <div class="d-none content">sample from proj 3  </div>
+            <div class="projectcard dflex" > <h4 class="prjname" >Enterprise Document Management Revamp</h4> 
+                <div class="d-none content">
+                    <p>Managed a transformation of the company’s document management system by implementing a modern EDMS (e.g., SharePoint or Documentum). This initiative aimed to support remote access, improve document retrieval time, and enhance security protocols. Conducted extensive requirements gathering and design workshops, created user acceptance testing plans, and deployed a phased rollout approach to minimize disruption. Resulted in a 60% improvement in document retrieval times and increased user satisfaction scores.</p>  </div>
                 <button onclick="showDetails(this)"class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            <div class="projectcard dflex"> <h4 class="prjname">PROJECT D</h4>
-                <div class="d-none content">sample from proj 4</div>
+            <div class="projectcard dflex"> <h4 class="prjname">Customer Service Process Re-engineering with Automation</h4>
+                <div class="d-none content">
+                    <p>Spearheaded the re-engineering of customer service processes using RPA (Robotic Process Automation) and AI. Designed workflows for repetitive tasks like data entry and account verifications, reducing process time by 45% and enhancing service accuracy. Collaborated with stakeholders to identify key automation opportunities, implemented Kanban for task tracking, and ensured compliance with data privacy regulations. Outcomes included reduced customer service handling time and a 25% increase in customer satisfaction ratings</p>
+                </div>
                 <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
             
          
@@ -64,10 +75,22 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>abhishakem@hotmail.com</p>
-        <p>In the future, this will be a contact form. For now, just leave this as a placeholder.</p>
+        <p style="margin-left: 1rem;"><i> Please mail me at abhishakem@hotmail.com <b>OR</b> &nbsp; <br>Drop a message below</i></p>
+        <table>
+            <tbody>
+                <tr > <td  id="contactname">Name </td> <td><input type="text" id="cname"  minlength="3" required>   </td></tr>
+                <tr> <td  id="contactemail">Email </td> <td><input    id="cmail" type="email"  required>   </td></tr>
+               
+                <tr> <td  id="contactmessage">Message </td> <td> <textarea id="cmsg" type="text" minlength="5" placeholder="Please enter your message header"> </textarea>  </td></tr>
+               <tr><td colspan="2" style="text-align: center;"> <button class="mybtn" id="submitBtn" onclick="submitMessage( )">Submit</button></td></tr>
+            </tbody>
+        </table>
+              
+           
+        </div>
+        
     </section>
-
+    <br><br><br>
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Abhishek Masur Jayatheertha</p>
