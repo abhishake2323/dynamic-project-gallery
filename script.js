@@ -1,5 +1,12 @@
 console.log("asd")
+let aboutme= document.getElementById("about").innerText;
 
+var typed = new Typed('#about1', {
+    strings: aboutme.split("~"),
+    typeSpeed: 10,
+    backSpeed: 0,
+    loop: true
+  });
 
 
 function showDetails(element) {

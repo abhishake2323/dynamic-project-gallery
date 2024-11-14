@@ -163,7 +163,7 @@ input,textarea{
     border-radius: 8px;
     box-shadow: 1px 0px 0px 5000px rgb(10 25 36 / 46%);
     z-index: 9999;
-    height: 80vh;
+    height: 50vh;
     display: block;
     position: fixed;
 }
